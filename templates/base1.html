@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+    <head>
+        <title>Fill Product Details</title>
+        <link rel="stylesheet" href="{% static 'css/sample1.css' %}">
+    </head>
+    <body>
+        <form action="./display", method="get">
+            <h2>Product Details...!</h2>
+            <p>Enter Product Id: <input type="text" name="txt1"></p>
+            <p>Enter Product Name: <input type="text" name="txt2"></p>
+            <p>Enter Product Price: <input type="text" name="txt3"></p>
+            <p>Enter Product Quantity: <input type="text" name="txt4"></p><br>
+            <input type="submit" value="SUBMIT"> <input type="reset" value="CLEAR">
+        </form>
+    </body>
+</html>
